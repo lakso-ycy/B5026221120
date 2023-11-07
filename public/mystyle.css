@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(144, 201, 144);
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .hargafinal {
+    font-weight: bold;
+    color: brown;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: green;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: green;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+  }
+
+  .profilepicture{
+    border-radius: 50%;
+  }
+  .photo{
+    border-radius: 25px;
+    border: 2px solid rgb(157, 31, 31);
+    padding: 10px;
+    width: 300px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }

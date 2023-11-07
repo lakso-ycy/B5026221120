@@ -1,0 +1,158 @@
+    /* Reset some default styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .lakso-background{
+        height: 100vh;
+        width: 100% ;
+        background: #f4e6c9;
+
+    }
+
+    .lakso-container-threedot {
+        padding-top: 30px;
+        width:50%;
+        margin: auto;
+        
+    }
+    .lakso-threedot{
+        border-radius: 50%;
+        height: 35px;
+        width: 35px ;
+        background-color: #f0f0f0;
+        padding-top: 5px;
+        float: right;
+        cursor: pointer;
+        border: none;
+    }
+    .lakso-threedot:hover{
+        background-color: #cfd2d5;
+    }
+    .lakso-threedot img{
+        width: 30%;
+    }
+    .lakso-logo-container{
+        padding-top: 20px;
+        margin: auto;
+        width: fit-content;
+    }
+    .lakso-logo-size{
+        border-radius: 50%;
+        overflow: hidden;
+        width: 100px;
+        background-color: white;
+        
+    }
+
+    .lakso-logo-size img{
+        width: 100%;
+    }
+    .lakso-title-container{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .lakso-title-text{
+        width: fit-content;
+        margin: auto;
+        margin-top: 10px;
+        color: #c78809;
+    }
+
+    .lakso-link{
+        margin: auto;
+        width: fit-content;
+        padding-top: 15px;
+        
+        
+    }
+    .lakso-link button{
+        background-color: #f2a814;
+        width: 678.8px;
+        height: 56px;
+        border: none;
+        border-radius: 50px;
+        font-size: 15px;
+        font-weight: 550;
+        position: relative;
+        cursor: pointer;
+        transition: all 200ms;
+        border: 2px solid #f2a814;
+
+    }
+    .lakso-link button:hover{
+        background-color: transparent;
+        color: #f2a814;
+    }
+
+    .lakso-link button img{
+        width: 10px;
+        height: 10px;
+        position:absolute ;
+        right: 30px;
+        bottom: 20px;
+    }
+
+    .lakso-link button img:hover{
+        background-color: #cfd2d5;
+        padding: 20px;
+        color:#f2a814;
+    }
+
+    .lakso-footer {
+        overflow: hidden;
+        width: 100%;
+        position: absolute;
+        height: 9%;
+        bottom: 0;
+      }
+      
+      .lakso-container-linktree {
+        position: relative;
+        margin: auto;
+        width: fit-content;
+        overflow: hidden;
+        cursor: pointer;
+        
+      }
+      
+      .lakso-button-linktree {
+        text-decoration: none;
+      }
+      
+      .lakso-button-linktree img {
+        width: 120px;
+      }
+      
+      .lakso-container-cookie {
+        
+        width: fit-content;
+        bottom: 11px;
+        left: 26px;
+        position: absolute;
+      }
+      
+      .lakso-button-cookie {
+        text-decoration: none;
+        color: black;
+        opacity: 50%;
+        cursor: pointer;
+      }
+      
+      .laksa-button-cookie p {
+        font-size: 13px;
+      }
+      
+      .lakso-button-cookie:hover {
+        opacity:90%;
+      }
+
+    
+
+   

@@ -102,3 +102,11 @@ Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangBelanjaController@
 Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangBelanjaController@add');
 Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangBelanjaController@store');
 Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangBelanjaController@hapus');
+Route::get('/agen','App\Http\Controllers\AgenController@index');
+Route::get('/agen/tambah','App\Http\Controllers\AgenController@tambah');
+Route::post('/agen/store','App\Http\Controllers\AgenController@store');
+Route::get('/agen/edit/{id}','App\Http\Controllers\AgenController@edit');
+Route::post('/agen/update','App\Http\Controllers\AgenController@update');
+Route::get('/agen/hapus/{id}','App\Http\Controllers\AgenController@hapus');
+Route::get('/agen/cari','App\Http\Controllers\AgenController@cari');
+Route::get('/agen/view/{id}','App\Http\Controllers\AgenController@view');

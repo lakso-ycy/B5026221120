@@ -13,15 +13,12 @@
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand -->
-  <a class="navbar-brand" href="http://127.0.0.1:8000/">5026221120 Muhammad Shalahuddin Arif Laksono</a>
+  <a class="navbar-brand" href="http://127.0.0.1:8000/">Mahasiswa</a>
 
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item">
       <a class="nav-link" href="http://127.0.0.1:8000/nilaikuliah">Tugas Nilai Kuliah</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="http://127.0.0.1:8000/keranjangbelanja">Tugas Keranjang belanja</a>
     </li>
 
     <!-- Dropdown -->
@@ -30,10 +27,10 @@
         Tugas
       </a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="http://127.0.0.1:8000/pegawai">Tugas pegawai</a>
-        <a class="dropdown-item" href="http://127.0.0.1:8000/nilaikuliah">Tugas Nilai Kuliah</a>
-        <a class="dropdown-item" href="http://127.0.0.1:8000/keranjangbelanja">Tugas Keranjang belanja</a>
-        <a class="dropdown-item" href="http://127.0.0.1:8000/agen">Tugas PraEAS</a>
+        <a class="dropdown-item" href="http://127.0.0.1:8000/pegawai">NRP</a>
+        <a class="dropdown-item" href="http://127.0.0.1:8000/nilaikuliah">Nama Mahasiswa</a>
+        <a class="dropdown-item" href="http://127.0.0.1:8000/keranjangbelanja">Jurusan</a>
+        <a class="dropdown-item" href="http://127.0.0.1:8000/agen">IPK</a>
       </div>
     </li>
   </ul>

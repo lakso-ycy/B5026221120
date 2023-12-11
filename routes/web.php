@@ -110,3 +110,12 @@ Route::post('/agen/update','App\Http\Controllers\AgenController@update');
 Route::get('/agen/hapus/{id}','App\Http\Controllers\AgenController@hapus');
 Route::get('/agen/cari','App\Http\Controllers\AgenController@cari');
 Route::get('/agen/view/{id}','App\Http\Controllers\AgenController@view');
+
+Route::get('/mahasiswa','App\Http\Controllers\MahasiswaController@index');
+Route::get('/mahaiswa/tambah','App\Http\Controllers\MahasiswaController@tambah');
+Route::post('/mahasiswa/store','App\Http\Controllers\MahasiswaController@store');
+Route::get('/mahasiswa/edit/{id}','App\Http\Controllers\MahasiswaController@edit');
+Route::post('/mahasiswa/update','App\Http\Controllers\MahasiswaController@update');
+Route::get('/mahasiswa/hapus/{id}','App\Http\Controllers\MahasiswaController@hapus');
+Route::get('/mahasiswa/cari','App\Http\Controllers\MahasiswaController@cari');
+Route::get('/mahasiswa/view/{id}','App\Http\Controllers\MahasiswaController@view');
